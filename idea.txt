@@ -1,0 +1,38 @@
+AirFare
+
+*An app used to purchase airfare and reserve a seat on a specific flight
+
+::Page 1::
+*Registration - Create new account
+	- Ask for username and password and full name
+	- Save information in file
+*Login - Login to existing account 
+	- Ask for username and password
+	- Check if there's a file and check for credentials
+
+::Page 2::
+*Destination - Show available destinations
+	- Get user's preferred destination
+	- Show graphics according to destination
+	- Ask if it's correct, Yes or No?
+	- If no, go back to destinations
+	- If yes, move on to quantity and price
+
+::Page 3::
+*Dates - What dates would the user like to book
+	- Get today's date and show upcoming outbound trips
+	- Get date from user
+	- Show upcoming inbound trips
+	- Get date from user
+
+::Page 4::
+*Quantity - If open seats, ask how many
+	- Show how many seats are available
+	- If available, get how many seats the user wants
+	- If over capacity, ask if they'd like to try a new date or go back,say sorry only this many available
+
+::Page 5::
+*Price - How much it will cost
+	- Show the price of the airfare
+	- Ask user if this is okay, Yes or No?
+	- Show congratulations! Direct user to output file with reservation information

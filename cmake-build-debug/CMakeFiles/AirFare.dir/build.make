@@ -75,32 +75,47 @@ include CMakeFiles/AirFare.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/AirFare.dir/flags.make
 
-CMakeFiles/AirFare.dir/main.cpp.obj: CMakeFiles/AirFare.dir/flags.make
-CMakeFiles/AirFare.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\Documents\Programming_Projects\AirFare\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/AirFare.dir/main.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\AirFare.dir\main.cpp.obj -c C:\Users\User\Documents\Programming_Projects\AirFare\main.cpp
+CMakeFiles/AirFare.dir/src/main.cpp.obj: CMakeFiles/AirFare.dir/flags.make
+CMakeFiles/AirFare.dir/src/main.cpp.obj: ../src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\Documents\Programming_Projects\AirFare\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/AirFare.dir/src/main.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\AirFare.dir\src\main.cpp.obj -c C:\Users\User\Documents\Programming_Projects\AirFare\src\main.cpp
 
-CMakeFiles/AirFare.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AirFare.dir/main.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\User\Documents\Programming_Projects\AirFare\main.cpp > CMakeFiles\AirFare.dir\main.cpp.i
+CMakeFiles/AirFare.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AirFare.dir/src/main.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\User\Documents\Programming_Projects\AirFare\src\main.cpp > CMakeFiles\AirFare.dir\src\main.cpp.i
 
-CMakeFiles/AirFare.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AirFare.dir/main.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\User\Documents\Programming_Projects\AirFare\main.cpp -o CMakeFiles\AirFare.dir\main.cpp.s
+CMakeFiles/AirFare.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AirFare.dir/src/main.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\User\Documents\Programming_Projects\AirFare\src\main.cpp -o CMakeFiles\AirFare.dir\src\main.cpp.s
+
+CMakeFiles/AirFare.dir/src/login.cpp.obj: CMakeFiles/AirFare.dir/flags.make
+CMakeFiles/AirFare.dir/src/login.cpp.obj: ../src/login.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\Documents\Programming_Projects\AirFare\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/AirFare.dir/src/login.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\AirFare.dir\src\login.cpp.obj -c C:\Users\User\Documents\Programming_Projects\AirFare\src\login.cpp
+
+CMakeFiles/AirFare.dir/src/login.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AirFare.dir/src/login.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\User\Documents\Programming_Projects\AirFare\src\login.cpp > CMakeFiles\AirFare.dir\src\login.cpp.i
+
+CMakeFiles/AirFare.dir/src/login.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AirFare.dir/src/login.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\User\Documents\Programming_Projects\AirFare\src\login.cpp -o CMakeFiles\AirFare.dir\src\login.cpp.s
 
 # Object files for target AirFare
 AirFare_OBJECTS = \
-"CMakeFiles/AirFare.dir/main.cpp.obj"
+"CMakeFiles/AirFare.dir/src/main.cpp.obj" \
+"CMakeFiles/AirFare.dir/src/login.cpp.obj"
 
 # External object files for target AirFare
 AirFare_EXTERNAL_OBJECTS =
 
-AirFare.exe: CMakeFiles/AirFare.dir/main.cpp.obj
+AirFare.exe: CMakeFiles/AirFare.dir/src/main.cpp.obj
+AirFare.exe: CMakeFiles/AirFare.dir/src/login.cpp.obj
 AirFare.exe: CMakeFiles/AirFare.dir/build.make
 AirFare.exe: CMakeFiles/AirFare.dir/linklibs.rsp
 AirFare.exe: CMakeFiles/AirFare.dir/objects1.rsp
 AirFare.exe: CMakeFiles/AirFare.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\User\Documents\Programming_Projects\AirFare\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable AirFare.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\User\Documents\Programming_Projects\AirFare\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable AirFare.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\AirFare.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

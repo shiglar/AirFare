@@ -80,7 +80,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/User/Documents/Programming_Projects/AirFare/main.cpp">
+		<Unit filename="C:/Users/User/Documents/Programming_Projects/AirFare/src/login.cpp">
+			<Option target="AirFare"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Documents/Programming_Projects/AirFare/src/login.h">
+			<Option target="AirFare"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Documents/Programming_Projects/AirFare/src/main.cpp">
 			<Option target="AirFare"/>
 		</Unit>
 		<Unit filename="C:/Users/User/Documents/Programming_Projects/AirFare/CMakeLists.txt">

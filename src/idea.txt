@@ -9,6 +9,11 @@ AirFare
 *Login - Login to existing account 
 	- Ask for username and password
 	- Check if there's a file and check for credentials
+	- Forgot password
+	- Once logged in: Welcome *Name! Options: Reserve a trip,
+	                                          show upcoming trip information,
+	                                          cancel trip,
+	                                          change username and password
 
 ::Page 2::
 *Destination - Show available destinations

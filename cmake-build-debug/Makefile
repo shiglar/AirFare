@@ -141,32 +141,59 @@ AirFare/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\AirFare.dir\build.make CMakeFiles/AirFare.dir/build
 .PHONY : AirFare/fast
 
-main.obj: main.cpp.obj
+src/login.obj: src/login.cpp.obj
 
-.PHONY : main.obj
+.PHONY : src/login.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AirFare.dir\build.make CMakeFiles/AirFare.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+src/login.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AirFare.dir\build.make CMakeFiles/AirFare.dir/src/login.cpp.obj
+.PHONY : src/login.cpp.obj
 
-main.i: main.cpp.i
+src/login.i: src/login.cpp.i
 
-.PHONY : main.i
+.PHONY : src/login.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AirFare.dir\build.make CMakeFiles/AirFare.dir/main.cpp.i
-.PHONY : main.cpp.i
+src/login.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AirFare.dir\build.make CMakeFiles/AirFare.dir/src/login.cpp.i
+.PHONY : src/login.cpp.i
 
-main.s: main.cpp.s
+src/login.s: src/login.cpp.s
 
-.PHONY : main.s
+.PHONY : src/login.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AirFare.dir\build.make CMakeFiles/AirFare.dir/main.cpp.s
-.PHONY : main.cpp.s
+src/login.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AirFare.dir\build.make CMakeFiles/AirFare.dir/src/login.cpp.s
+.PHONY : src/login.cpp.s
+
+src/main.obj: src/main.cpp.obj
+
+.PHONY : src/main.obj
+
+# target to build an object file
+src/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AirFare.dir\build.make CMakeFiles/AirFare.dir/src/main.cpp.obj
+.PHONY : src/main.cpp.obj
+
+src/main.i: src/main.cpp.i
+
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AirFare.dir\build.make CMakeFiles/AirFare.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AirFare.dir\build.make CMakeFiles/AirFare.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -177,9 +204,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... AirFare
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... src/login.obj
+	@echo ... src/login.i
+	@echo ... src/login.s
+	@echo ... src/main.obj
+	@echo ... src/main.i
+	@echo ... src/main.s
 .PHONY : help
 
 

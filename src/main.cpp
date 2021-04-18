@@ -7,21 +7,21 @@ using namespace std;
 int main() {
 
     //Register or Login
-    cout << "Username:\n";
-    string username;
-    cin >> username;
-    cout << "Password:\n";
-    string password;
-    cin >> password;
-    cout << "Full Name:\n";
-    string full_name;
-    cin.ignore();
-    getline(cin, full_name);
+    string loginOption;
+    cout << "1. Sign In\n2. Sign Up\n";
+    cin >> loginOption;
+    while (loginOption != "1" && loginOption != "2") {
+        cout << "Please choose 1 or 2.\n1. Sign In\n2. Sign Up\n";
+        cin >> loginOption;
+    }
 
-    Login log1(username, password, full_name);
-
-    cout << "\nLogin created!\nWelcome " << full_name << "!\n";
-
+    if(loginOption == "1") {
+        Login log;
+        log.GetCredentials();
+    } else {
+        Login log;
+        log.LoginMachine();
+    }
 
     return 0;
 }

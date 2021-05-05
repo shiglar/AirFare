@@ -15,11 +15,11 @@ int main() {
         cin >> loginOption;
     }
 
+    Login log;
+
     if(loginOption == "1") {
-        Login log;
         log.GetCredentials();
     } else {
-        Login log;
         log.LoginMachine();
     }
 
